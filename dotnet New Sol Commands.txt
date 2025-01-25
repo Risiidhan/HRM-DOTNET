@@ -1,0 +1,21 @@
+dotnet new sln -o HRM
+HRM>dotnet new classlib -o HRM.Contrast
+HRM>dotnet new classlib -o HRM.Application
+HRM>dotnet new classlib -o HRM.Infrastructure
+HRM>dotnet new classlib -o HRM.Domain
+
+HRM>ls -r **\*.csproj (to add all projects to solution)
+HRM> dotnet build
+
+-Final Structure of Dependencies-
+HRM.Domain: No dependencies.
+HRM.Application: References HRM.Domain.
+HRM.Contracts: No dependencies (used as DTOs/interfaces).
+HRM.Infrastructure: References HRM.Application and HRM.Contracts.
+HRM.API: References HRM.Application and HRM.Contracts.
+
+dotnet add .\HRM.Application\HRM.Application.csproj reference .\HRM.Domain\HRM.Domain.csproj
+dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj reference .\HRM.Application\HRM.Application.csproj
+dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj reference .\HRM.Contrasts\HRM.Contrasts.csproj
+dotnet add .\HRM.API\HRM.API.csproj reference .\HRM.Application\HRM.Application.csproj
+dotnet add .\HRM.API\HRM.API.csproj reference .\HRM.Contrasts\HRM.Contrasts.csproj
