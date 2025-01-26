@@ -2,15 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HRM.Contrasts.DTOs;
 
-namespace HRM.Contrasts.Interfaces
+namespace HRM.Application.Interfaces
 {
-    public interface IEmployee
+    public interface IEmployeeService
     {
         Task<IEnumerable<EmployeeDto>> GetAllAsync();
-        Task<EmployeeDto> GetByIdAsync(Guid id);
         Task AddAsync(EmployeeDto employee);
-        Task UpdateAsync(EmployeeDto employee);
-        Task DeleteAsync(Guid id);
     }
 }
