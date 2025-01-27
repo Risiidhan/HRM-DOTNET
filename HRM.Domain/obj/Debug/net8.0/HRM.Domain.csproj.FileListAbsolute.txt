@@ -1,0 +1,12 @@
+D:\projects\HRM\HRM.Domain\bin\Debug\net8.0\HRM.Domain.deps.json
+D:\projects\HRM\HRM.Domain\bin\Debug\net8.0\HRM.Domain.dll
+D:\projects\HRM\HRM.Domain\bin\Debug\net8.0\HRM.Domain.pdb
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.AssemblyInfoInputs.cache
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.AssemblyInfo.cs
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.csproj.CoreCompileInputs.cache
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.sourcelink.json
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.dll
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\refint\HRM.Domain.dll
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\HRM.Domain.pdb
+D:\projects\HRM\HRM.Domain\obj\Debug\net8.0\ref\HRM.Domain.dll

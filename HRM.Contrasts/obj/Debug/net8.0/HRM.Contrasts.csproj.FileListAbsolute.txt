@@ -1,0 +1,16 @@
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.AssemblyInfoInputs.cache
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.AssemblyInfo.cs
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.csproj.CoreCompileInputs.cache
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.sourcelink.json
+D:\projects\HRM\HRM.Contrasts\bin\Debug\net8.0\HRM.Contrasts.deps.json
+D:\projects\HRM\HRM.Contrasts\bin\Debug\net8.0\HRM.Contrasts.dll
+D:\projects\HRM\HRM.Contrasts\bin\Debug\net8.0\HRM.Contrasts.pdb
+D:\projects\HRM\HRM.Contrasts\bin\Debug\net8.0\HRM.Domain.dll
+D:\projects\HRM\HRM.Contrasts\bin\Debug\net8.0\HRM.Domain.pdb
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.csproj.AssemblyReference.cache
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Cont.1B8AD51A.Up2Date
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.dll
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\refint\HRM.Contrasts.dll
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\HRM.Contrasts.pdb
+D:\projects\HRM\HRM.Contrasts\obj\Debug\net8.0\ref\HRM.Contrasts.dll

@@ -26,6 +26,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\projects\\HRM\\HRM.Contrasts\\HRM.Contrasts.csproj": {
+                "projectPath": "D:\\projects\\HRM\\HRM.Contrasts\\HRM.Contrasts.csproj"
+              },
               "D:\\projects\\HRM\\HRM.Domain\\HRM.Domain.csproj": {
                 "projectPath": "D:\\projects\\HRM\\HRM.Domain\\HRM.Domain.csproj"
               }
@@ -87,7 +90,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\projects\\HRM\\HRM.Domain\\HRM.Domain.csproj": {
+                "projectPath": "D:\\projects\\HRM\\HRM.Domain\\HRM.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

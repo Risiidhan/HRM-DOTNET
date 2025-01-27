@@ -1,11 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using HRM.Contrasts.Interfaces;
+using HRM.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace HRM.Infrastructure.repository
 {
-    public class EmployeeRepository
+    public class EmployeeRepository: IEmployeeRepository
     {
         private readonly ApplicationDBContext _context;
 

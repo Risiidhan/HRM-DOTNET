@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using HRM.Contrasts.Interfaces;
 using HRM.Contrasts.DTOs;
 using HRM.Application.Interfaces;
@@ -41,7 +38,7 @@ namespace HRM.Application.Services
                 Id = Guid.NewGuid(),
                 Name = employeeDto.Name,
                 Email = employeeDto.Email,
-                Salary = employeeDto.Salary
+                Salary = (decimal)employeeDto.Salary
             };
 
             // Add domain entity to repository

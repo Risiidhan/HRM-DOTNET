@@ -19,3 +19,19 @@ dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj reference .\HRM.Applic
 dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj reference .\HRM.Contrasts\HRM.Contrasts.csproj
 dotnet add .\HRM.API\HRM.API.csproj reference .\HRM.Application\HRM.Application.csproj
 dotnet add .\HRM.API\HRM.API.csproj reference .\HRM.Contrasts\HRM.Contrasts.csproj
+
+
+
+For HRM.Infrastructure (Database Access and EF Core):
+
+dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj package Microsoft.EntityFrameworkCore
+dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Design
+dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Tools
+dotnet add .\HRM.Infrastructure\HRM.Infrastructure.csproj package Npgsql.EntityFrameworkCore.PostgreSQL
+
+
+For migration
+
+
+dotnet ef migrations add InitialCreate --project HRM.Infrastructure --startup-project HRM.API
+dotnet ef database update --project HRM.Infrastructure --startup-project HRM.API

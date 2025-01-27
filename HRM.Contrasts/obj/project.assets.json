@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "HRM.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HRM.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRM.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HRM.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HRM.Domain/HRM.Domain.csproj",
+      "msbuildProject": "../HRM.Domain/HRM.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "HRM.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rkish\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\projects\\HRM\\HRM.Domain\\HRM.Domain.csproj": {
+              "projectPath": "D:\\projects\\HRM\\HRM.Domain\\HRM.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

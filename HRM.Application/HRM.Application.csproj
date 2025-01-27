@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HRM.Domain\HRM.Domain.csproj" />
+    <ProjectReference Include="..\HRM.Contrasts\HRM.Contrasts.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
